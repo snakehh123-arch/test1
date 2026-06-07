@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Sky -->
+  <rect width="800" height="350" fill="#E6B8D7"/>
+  <!-- Ancient buildings -->
+  <rect x="50" y="300" width="140" height="300" fill="#D4A574"/>
+  <rect x="220" y="280" width="120" height="320" fill="#CD9B7D"/>
+  <rect x="390" y="250" width="160" height="350" fill="#D4A574"/>
+  <rect x="600" y="300" width="130" height="300" fill="#CD9B7D"/>
+  <!-- Colosseum arches -->
+  <ellipse cx="100" cy="350" rx="30" ry="50" fill="#8B7355"/>
+  <ellipse cx="100" cy="350" rx="20" ry="40" fill="#D4A574"/>
+  <!-- Dome (Pantheon style) -->
+  <circle cx="470" cy="200" r="60" fill="#CD9B7D" stroke="#8B7355" stroke-width="2"/>
+  <circle cx="470" cy="200" r="45" fill="#E6B8D7"/>
+  <!-- Vatican cross -->
+  <line x1="625" y1="230" x2="625" y2="310" stroke="#FFD700" stroke-width="3"/>
+  <line x1="595" y1="270" x2="655" y2="270" stroke="#FFD700" stroke-width="3"/>
+  <!-- Columns -->
+  <rect x="280" y="320" width="8" height="280" fill="#A9A9A9"/>
+  <rect x="320" y="320" width="8" height="280" fill="#A9A9A9"/>
+  <!-- Text -->
+  <text x="400" y="100" font-size="24" fill="#000" text-anchor="middle" font-weight="bold">Rome, Italy</text>
+</svg>

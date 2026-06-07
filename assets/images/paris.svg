@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Sky -->
+  <rect width="800" height="350" fill="#87CEEB"/>
+  <!-- Buildings background -->
+  <rect y="350" width="800" height="250" fill="#D4A574"/>
+  <!-- Eiffel Tower base -->
+  <polygon points="400,350 380,550 420,550" fill="#8B7355"/>
+  <!-- Eiffel Tower left leg -->
+  <line x1="380" y1="550" x2="300" y2="580" stroke="#8B7355" stroke-width="4"/>
+  <!-- Eiffel Tower right leg -->
+  <line x1="420" y1="550" x2="500" y2="580" stroke="#8B7355" stroke-width="4"/>
+  <!-- Tower middle section -->
+  <rect x="390" y="250" width="20" height="100" fill="#8B7355"/>
+  <!-- Tower top section -->
+  <polygon points="400,150 390,250 410,250" fill="#8B7355"/>
+  <!-- Decorative elements -->
+  <circle cx="400" cy="200" r="3" fill="#FFD700"/>
+  <circle cx="395" cy="220" r="3" fill="#FFD700"/>
+  <circle cx="405" cy="220" r="3" fill="#FFD700"/>
+  <!-- Text -->
+  <text x="400" y="100" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">Paris, France</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#B0C4DE"/>
+  <!-- Water/Canals -->
+  <rect y="300" width="800" height="300" fill="#4169E1"/>
+  <!-- Canal houses -->
+  <rect x="50" y="200" width="80" height="300" fill="#CD5C5C"/>
+  <rect x="60" y="220" width="12" height="15" fill="#FFD700"/>
+  <rect x="90" y="220" width="12" height="15" fill="#FFD700"/>
+  <rect x="60" y="260" width="12" height="15" fill="#FFD700"/>
+  <rect x="90" y="260" width="12" height="15" fill="#FFD700"/>
+  <!-- House 2 -->
+  <rect x="170" y="180" width="85" height="320" fill="#8B4513"/>
+  <rect x="180" y="200" width="12" height="15" fill="#FFD700"/>
+  <rect x="215" y="200" width="12" height="15" fill="#FFD700"/>
+  <!-- House 3 -->
+  <rect x="300" y="220" width="75" height="280" fill="#696969"/>
+  <rect x="310" y="240" width="12" height="15" fill="#FFD700"/>
+  <rect x="340" y="240" width="12" height="15" fill="#FFD700"/>
+  <!-- Bicycles -->
+  <circle cx="150" cy="380" r="8" fill="#333"/>
+  <circle cx="170" cy="380" r="8" fill="#333"/>
+  <line x1="160" y1="350" x2="160" y2="380" stroke="#333" stroke-width="2"/>
+  <!-- Tulips -->
+  <polygon points="500,450 495,460 505,460" fill="#FF69B4"/>
+  <line x1="500" y1="460" x2="500" y2="480" stroke="#228B22" stroke-width="2"/>
+  <polygon points="550,450 545,460 555,460" fill="#FFD700"/>
+  <line x1="550" y1="460" x2="550" y2="480" stroke="#228B22" stroke-width="2"/>
+  <!-- Text -->
+  <text x="400" y="100" font-size="24" fill="#000" text-anchor="middle" font-weight="bold">Amsterdam, Netherlands</text>
+</svg>

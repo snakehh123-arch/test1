@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Sky -->
+  <rect width="800" height="350" fill="#FFD700"/>
+  <!-- River/Water -->
+  <rect y="350" width="800" height="250" fill="#4169E1"/>
+  <!-- Temple spires -->
+  <polygon points="150,200 130,280 170,280" fill="#FF6347"/>
+  <polygon points="150,150 140,200 160,200" fill="#FFD700"/>
+  <polygon points="400,150 370,250 430,250" fill="#FF4500"/>
+  <polygon points="400,100 385,150 415,150" fill="#FFD700"/>
+  <polygon points="650,180 630,260 670,260" fill="#FF6347"/>
+  <polygon points="650,130 640,180 660,180" fill="#FFD700"/>
+  <!-- Market boats -->
+  <ellipse cx="200" cy="420" rx="40" ry="25" fill="#8B4513"/>
+  <polygon points="200,420 170,435 230,435" fill="#90EE90"/>
+  <ellipse cx="500" cy="450" rx="35" ry="20" fill="#8B4513"/>
+  <!-- Text -->
+  <text x="400" y="80" font-size="24" fill="#000" text-anchor="middle" font-weight="bold">Bangkok, Thailand</text>
+</svg>

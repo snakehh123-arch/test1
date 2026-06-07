@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#FFB347"/>
+  <!-- Sand dunes -->
+  <path d="M 0 300 Q 200 250 400 300 T 800 300 L 800 600 L 0 600 Z" fill="#DAA520"/>
+  <!-- Burj Khalifa -->
+  <polygon points="400,150 385,300 415,300" fill="#C0C0C0"/>
+  <rect x="395" y="300" width="10" height="300" fill="#C0C0C0"/>
+  <!-- Top of Burj Khalifa -->
+  <circle cx="400" cy="140" r="8" fill="#FFD700"/>
+  <!-- Palm Jumeirah (simplified) -->
+  <ellipse cx="150" cy="400" rx="60" ry="80" fill="#228B22"/>
+  <ellipse cx="130" cy="350" rx="25" ry="60" fill="#228B22"/>
+  <ellipse cx="170" cy="350" rx="25" ry="60" fill="#228B22"/>
+  <!-- Sun -->
+  <circle cx="700" cy="80" r="35" fill="#FF6347"/>
+  <!-- Windows on tower -->
+  <rect x="397" y="320" width="6" height="6" fill="#FFD700"/>
+  <rect x="397" y="350" width="6" height="6" fill="#FFD700"/>
+  <rect x="397" y="380" width="6" height="6" fill="#FFD700"/>
+  <!-- Text -->
+  <text x="400" y="100" font-size="24" fill="#000" text-anchor="middle" font-weight="bold">Dubai, UAE</text>
+</svg>
