@@ -1,8 +1,8 @@
-// Destinations data
+// Destinations data with local image paths
 const destinations = [
     {
         name: 'Paris, France',
-        image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80',
+        image: 'assets/images/paris.svg',
         description: 'The City of Light awaits with world-class museums and iconic landmarks.',
         season: 'April - June, September - October',
         temperature: '15°C - 25°C',
@@ -13,7 +13,7 @@ const destinations = [
     },
     {
         name: 'Tokyo, Japan',
-        image: 'https://images.unsplash.com/photo-1540959375944-7049f642e9cc?w=600&q=80',
+        image: 'assets/images/tokyo.svg',
         description: 'Experience ancient temples and cutting-edge technology in harmony.',
         season: 'March - May, September - November',
         temperature: '10°C - 26°C',
@@ -24,7 +24,7 @@ const destinations = [
     },
     {
         name: 'New York, USA',
-        image: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=600&q=80',
+        image: 'assets/images/newyork.svg',
         description: 'The city that never sleeps offers endless entertainment and dining.',
         season: 'April - June, September - November',
         temperature: '5°C - 25°C',
@@ -35,7 +35,7 @@ const destinations = [
     },
     {
         name: 'Dubai, UAE',
-        image: 'https://images.unsplash.com/photo-1512453333214-41affa4ab2b4?w=600&q=80',
+        image: 'assets/images/dubai.svg',
         description: 'Luxury shopping, futuristic architecture, and desert adventures.',
         season: 'October - March',
         temperature: '15°C - 30°C',
@@ -46,7 +46,7 @@ const destinations = [
     },
     {
         name: 'Barcelona, Spain',
-        image: 'https://images.unsplash.com/photo-1562883714051-b75a69861637?w=600&q=80',
+        image: 'assets/images/barcelona.svg',
         description: 'Artistic architecture, vibrant culture, and Mediterranean beaches.',
         season: 'May - June, September - October',
         temperature: '12°C - 27°C',
@@ -57,7 +57,7 @@ const destinations = [
     },
     {
         name: 'Sydney, Australia',
-        image: 'https://images.unsplash.com/photo-1506973404872-a4e142e9c147?w=600&q=80',
+        image: 'assets/images/sydney.svg',
         description: 'Iconic landmarks, stunning beaches, and vibrant harbor views.',
         season: 'September - November, March - May',
         temperature: '8°C - 26°C',
@@ -68,7 +68,7 @@ const destinations = [
     },
     {
         name: 'Rome, Italy',
-        image: 'https://images.unsplash.com/photo-1552832860-cfb67165eaf0?w=600&q=80',
+        image: 'assets/images/rome.svg',
         description: 'Ancient history, Renaissance art, and mouthwatering Italian cuisine.',
         season: 'April - June, September - October',
         temperature: '10°C - 25°C',
@@ -79,7 +79,7 @@ const destinations = [
     },
     {
         name: 'Bangkok, Thailand',
-        image: 'https://images.unsplash.com/photo-1508701115722-e879886daf5e?w=600&q=80',
+        image: 'assets/images/bangkok.svg',
         description: 'Buddhist temples, bustling markets, and delicious street food.',
         season: 'November - February',
         temperature: '22°C - 32°C',
@@ -90,7 +90,7 @@ const destinations = [
     },
     {
         name: 'Rio de Janeiro, Brazil',
-        image: 'https://images.unsplash.com/photo-1483729558449-99daa61582c0?w=600&q=80',
+        image: 'assets/images/rio.svg',
         description: 'Stunning beaches, vibrant culture, and Christ the Redeemer statue.',
         season: 'May - September',
         temperature: '15°C - 30°C',
@@ -101,7 +101,7 @@ const destinations = [
     },
     {
         name: 'London, UK',
-        image: 'https://images.unsplash.com/photo-1520763185298-1b434c919eba?w=600&q=80',
+        image: 'assets/images/london.svg',
         description: 'Royal palaces, historic landmarks, and world-class museums.',
         season: 'May - September',
         temperature: '8°C - 22°C',
@@ -112,7 +112,7 @@ const destinations = [
     },
     {
         name: 'Amsterdam, Netherlands',
-        image: 'https://images.unsplash.com/photo-1475568503062-469a11a5e3f1?w=600&q=80',
+        image: 'assets/images/amsterdam.svg',
         description: 'Picturesque canals, bicycle culture, and world-class art museums.',
         season: 'April - May, September - October',
         temperature: '8°C - 20°C',
@@ -123,7 +123,7 @@ const destinations = [
     },
     {
         name: 'Singapore',
-        image: 'https://images.unsplash.com/photo-1523159335684-36898badc3f2?w=600&q=80',
+        image: 'assets/images/singapore.svg',
         description: 'Modern metropolis with lush gardens and diverse multicultural cuisine.',
         season: 'February - April, July - September',
         temperature: '24°C - 32°C',
