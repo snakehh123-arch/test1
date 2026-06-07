@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Travel Around the World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">✈️ Wanderlust</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore the World</h1>
+            <p>Discover amazing destinations and create unforgettable memories</p>
+            <button class="cta-button" onclick="document.getElementById('destinations').scrollIntoView({behavior: 'smooth'})">Start Exploring</button>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-bar" placeholder="Search destinations...">
+            <button class="search-btn" onclick="filterDestinations()">Search</button>
+        </div>
+    </section>
+
+    <!-- Destinations Grid -->
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid" id="destinationsGrid">
+            <!-- Destinations will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured">
+        <h2>Featured Destination</h2>
+        <div class="featured-container">
+            <div class="featured-image">
+                <img id="featuredImg" src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80" alt="Featured Destination">
+            </div>
+            <div class="featured-content">
+                <h3 id="featuredTitle">Paris, France</h3>
+                <p id="featuredDesc">Experience the magic of the City of Light. Visit the iconic Eiffel Tower, stroll through the Louvre, and enjoy world-class cuisine at charming cafés.</p>
+                <div class="featured-details">
+                    <div class="detail-item">
+                        <span class="label">Best Time:</span>
+                        <span id="featuredSeason">April - June</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Temperature:</span>
+                        <span id="featuredTemp">15°C - 25°C</span>
+                    </div>
+                </div>
+                <button class="more-btn" onclick="viewDestination('Paris')">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Modal -->
+    <div id="destinationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-body">
+                <img id="modalImg" src="" alt="Destination">
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDesc"></p>
+                    <div class="modal-details">
+                        <div class="detail-box">
+                            <h4>Best Season</h4>
+                            <p id="modalSeason"></p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>Temperature</h4>
+                            <p id="modalTemp"></p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>Language</h4>
+                            <p id="modalLanguage"></p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>Currency</h4>
+                            <p id="modalCurrency"></p>
+                        </div>
+                    </div>
+                    <h4>Attractions</h4>
+                    <ul id="modalAttractions"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Wanderlust. All rights reserved. | Explore the World with Us</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
